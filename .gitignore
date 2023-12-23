@@ -88,3 +88,4 @@ UIChallenges/fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 UIChallenges/iOSInjectionProject/
+.DS_Store
