@@ -48,6 +48,7 @@ struct AddOnContainerView: View {
                 }
                 .frame(maxWidth: screenWidth, alignment: .leading)
                 Text("+$\(currentSelectedPlan.yearly ? "\(selectedAddOn.amount * 10)/yr" : "\(selectedAddOn.amount)/mo")")
+                    .foregroundStyle(Color("SoftPurple"))            
             }
             .frame(maxWidth: screenWidth, alignment: .leading)
             .padding(20)
